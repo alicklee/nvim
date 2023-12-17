@@ -12,5 +12,5 @@ return {
     "nvim-treesitter/nvim-treesitter",
     "nvim-tree/nvim-web-devicons",
   },
-  vim.keymap.set("n", "<leader>a", "<cmd>AerialNavToggle<CR>"),
+  vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle<CR>"),
 }
