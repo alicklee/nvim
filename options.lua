@@ -7,6 +7,11 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    swapfile = false,
+    -- guifont = { "CaskaydiaCove Nerd Font", "Source Han Sans CN", "微软雅黑", "Maple Mono SC NF", ":h20" },
+  },
+  o = {
+    guifont = "CaskaydiaCove Nerd Font:h20",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader

@@ -14,5 +14,11 @@ return function()
   --     ["~/%.config/foo/.*"] = "fooscript",
   --   },
   -- }
-  require "user.autocmds"
+  if vim.g.neovide then
+    -- Helper function for transparency formatting
+    -- g:neovide_transparency should be 0 if you want to unify transparency of content and title bar.
+    vim.g.neovide_transparency = 0.9
+    vim.opt.guifont = { "JetBrainsMono Nerd Font", ":h17" }
+    vim.g.neotree_width = 10
+  end
 end
